@@ -1,0 +1,5 @@
+#!/bin/bash
+
+CUTAT=8
+ls -lrt $* | tail -n $CUTAT
+

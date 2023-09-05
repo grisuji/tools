@@ -1,0 +1,5 @@
+#!/bin/bash
+
+CUTAT=8
+ls -lt $* | head -n $((CUTAT+1)) | tail -n $CUTAT
+
